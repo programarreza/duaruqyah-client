@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="navbar bg-[#f7f8fa] p-8">
+      <div className="navbar  p-8 pb-0">
         <div className="navbar-start">
           <div className="dropdown">
             <label
@@ -40,7 +40,7 @@ const Navbar = () => {
                 >
                   <input
                     type="text"
-                    placeholder="Type here"
+                    placeholder="Search by Dua Name"
                     className="input input-bordered w-full max-w-xs"
                   />
                 </ul>
